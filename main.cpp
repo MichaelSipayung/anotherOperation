@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <deque>//container adaptor 
+#include <stack> //container adaptop
 int main(int, char**) {
     std::cout << "Advanced Operation !\n";
     std::cout<<"Construct the string "<<std::endl;
@@ -66,6 +67,45 @@ int main(int, char**) {
     std::cout<<"1.First River\t:["<<river<<"]"<<std::endl;
     std::cout<<"2.Second River\t:["<<riverIn<<"]"<<std::endl;
     std::cout<<"Resul compare \t:["<<compareRiv<<std::endl;
+
+    std::cout<<"Converting the data"<<std::endl;
+    int nData=42;
+    std::string sData=std::to_string(nData);
+    std::cout<<"Original data as number\t:["<<nData<<"]"<<std::endl;
+    std::cout<<"Represented as string \t:[" <<sData<<"]"<<std::endl;
+    double conStrt=std::stod(sData);
+    std::string mike("987.009987");
+    double testCon=std::stod(mike); //converts string to floating point
+    std::cout<<"Then Convert to double \t:["<<conStrt<<"]"<<std::endl;
+    std::cout<<"String before conversion done \t: ["<<mike<<"]"<<std::endl;
+    std::cout<<"String after conversion done \t: ["<<testCon<<"]"<<std::endl;
+    std::cout<<"Then convert to int \t\t:["<<std::stoi(mike)<<"]"<<std::endl;
+
+    std::cout<<"Defining an adaptor"<<std::endl;
+    std::deque<int> deq;
+    std::stack<int> stk(deq);//copies elements from deq into stk 
+
+    //stack adaptor
+    std::stack<int> inStack;
+    for(size_t i=0;i!=10;++i){
+        inStack.push(i);
+    }
+    auto testStack=inStack.top();
+    std::cout<<"view stack\t:["<<inStack.top()<<std::endl;
+    for(auto i=0;i<=testStack;++i){
+        std::cout<<i<<"|";
+    }
+    std::cout<<"]"<<std::endl;
+
+    while (!inStack.empty())
+    {
+        int value=inStack.top();
+        inStack.pop();
+    }
+    
+
+
+
 
     
 

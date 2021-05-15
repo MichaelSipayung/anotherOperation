@@ -127,7 +127,15 @@ CMakeFiles/advancedCon.dir/main.cpp.obj: ../main.cpp \
   D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
-  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque \
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h \
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc \
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stack \
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_stack.h \
+  D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h
 
 
 D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h:
@@ -149,6 +157,8 @@ D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32
 D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h:
 
 D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
+
+D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h:
 
 D:/mingw/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
 
@@ -207,6 +217,8 @@ D:/mingw/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 D:/mingw/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
 D:/mingw/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
+
+D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stack:
 
 D:/mingw/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
@@ -383,3 +395,15 @@ D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc
 D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
+
+D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque:
+
+D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
+
+D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
+
+D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc:
+
+D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_stack.h:
+
+D:/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h:
